@@ -14,6 +14,7 @@ preserve the domain-independent ones for faithfulness.
 In principle, by defining different energy functions, EGSDE can be applied to other controllable generation tasks such as [inverse molecular design](https://arxiv.org/abs/2209.15408).
 ![image](figure/method.png)
 ## Example Results
+Representative translation results on three unpaired I2I tasks:
 ![image](figure/results.png)
 ## Requirements
 pytorch>=1.9.0
@@ -50,7 +51,7 @@ $ python run_train_dse.py
 ```data_path``` is the data path. ```pretrained_model``` is the path of used pretrained classifier provided in [guided-diffusion](https://github.com/openai/guided-diffusion) and we have also uploaded it previous [pretrained model](https://drive.google.com/drive/folders/1awa0vkcWhd9LIEiS9VtGTwO5hI4WEI3G?usp=sharing) link. 
 
 ## References
-If you find this repository helpful, please cite as:\
+If you find this repository helpful, please cite as:
 ```
 @article{zhao2022egsde,
   title={Egsde: Unpaired image-to-image translation via energy-guided stochastic differential equations},
