@@ -16,9 +16,9 @@ In principle, by defining different energy functions, EGSDE can be applied to ot
 ## Example Results
 ### Representative translation results on three unpaired I2I tasks:
 ![image](figure/results.png)
-### The ablation studies of energy function.
+### The ablation studies of energy function:
 ![image](figure/weight.png)
-### The ablation studies of initial time M.
+### The ablation studies of initial time M:
 ![image](figure/initial.png)
 ## Requirements
 pytorch>=1.9.0
