@@ -14,10 +14,12 @@ preserve the domain-independent ones for faithfulness.
 In principle, by defining different energy functions, EGSDE can be applied to other controllable generation tasks such as [inverse molecular design](https://arxiv.org/abs/2209.15408).
 ![image](figure/method.png)
 ## Example Results
-Representative translation results on three unpaired I2I tasks:
+### Representative translation results on three unpaired I2I tasks:
 ![image](figure/results.png)
-The ablation studies of energy function on male2female task.
+### The ablation studies of energy function.
 ![image](figure/weight.png)
+### The ablation studies of initial time M.
+![image](figure/initial.png)
 ## Requirements
 pytorch>=1.9.0
 ## Datasets
